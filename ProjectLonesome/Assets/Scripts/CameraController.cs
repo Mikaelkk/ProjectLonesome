@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+
     public Transform target;
     public Vector3 offset;
 
+    public float angle = 45f;
     public float pitch = 2f;
-    private float currentZoom = 10f;
+    public float zoom = 10f;
 
     void LateUpdate()
     {
-        transform.position = target.position - offset * currentZoom;
+        transform.position = target.position - offset * zoom;
         transform.LookAt(target.position + Vector3.up * pitch);
-        transform.RotateAround(target.position, Vector3.up, 45f);
+        transform.RotateAround(target.position, Vector3.up, angle);
     }
 }
