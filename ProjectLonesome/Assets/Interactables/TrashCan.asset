@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ca84404ddc5cb40bc290d10f020a7d, type: 3}
+  m_Name: TrashCan
+  m_EditorClassIdentifier: 
+  name: Trash Can
+  sprite: {fileID: 21300000, guid: f7f0832d8fdb43d45b55491c3aa89e99, type: 3}
+  interactionText: This is a trash can.
